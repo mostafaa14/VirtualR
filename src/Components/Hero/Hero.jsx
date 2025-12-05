@@ -18,7 +18,7 @@ export default function Hero() {
       </p>
       <div className=" flex justify-center my-10">
         <a href="#" className=" bg-linear-to-r from-orange-500 to-orange-800 py-3 px-4 rounded-md mx-3">Start for free</a>
-        <a href="#" className=" py-3 px-4 rounded-md mx-3 border">Documentation</a>
+        <a href="#" className=" py-3 px-4 rounded-md mx-3 border transition duration-500 hover:border-orange-700 hover:bg-linear-to-r hover:from-orange-500 hover:to-orange-800">Documentation</a>
       </div>
       <div className=" flex justify-center mt-10">
         <video autoPlay loop muted className=" w-1/2 rounded-lg border border-orange-700 shadow-orange-400 mx-2 my-4">

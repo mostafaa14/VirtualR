@@ -24,7 +24,7 @@ export default function Navbar() {
             ))}
           </ul>
           <div className=" hidden lg:flex justify-center items-center space-x-12">
-            <a href="#" className=" py-2 px-3 border rounded-md">
+            <a href="#" className=" py-2 px-3 border rounded-md transition duration-500 hover:border-orange-700 hover:bg-linear-to-r hover:from-orange-500 hover:to-orange-800">
               Sign In
             </a>
             <a
@@ -50,7 +50,7 @@ export default function Navbar() {
               ))}
             </ul>
             <div className=" flex space-x-6">
-              <a href="#" className=" py-2 px-3 border rounded-md">
+              <a href="#" className=" py-2 px-3 border rounded-md transition duration-500 hover:border-orange-700 hover:bg-linear-to-r hover:from-orange-500 hover:to-orange-800">
               Sign In
             </a>
             <a
