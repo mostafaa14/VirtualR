@@ -29,7 +29,7 @@ export default function Navbar() {
             </a>
             <a
               href="#"
-              className=" bg-linear-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
+              className=" bg-yellow-300 py-2 px-3 rounded-md"
             >
               Create an account
             </a>
